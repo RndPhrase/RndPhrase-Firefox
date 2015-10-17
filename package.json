@@ -1,0 +1,23 @@
+{
+  "title": "RndPhrase Improved",
+  "name": "rndphrase-firefox",
+  "version": "0.0.1",
+  "description": "Generate secure passwords easily and maintain cross domain uniqueness.",
+  "main": "index.js",
+  "author": "Ronni Elken Lindsgaard <rel@zx.dk>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RndPhrase/RndPhrase.js.git"
+  },
+  "dependencies": {
+    "rndphrase": "=0.9.5"
+  },
+  "permissions": {
+    "private-browsing": true
+  },
+  "license": "MIT"
+}
